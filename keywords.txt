@@ -1,0 +1,11 @@
+LedLib   KEYWORD1
+begin   KEYWORD2
+enEjecucion    KEYWORD2
+parar    KEYWORD2
+apagarLED    KEYWORD2
+prenderLED    KEYWORD2
+prender    KEYWORD2
+prenderInfinito    KEYWORD2
+prenderBloqueante    KEYWORD2
+loop    KEYWORD2
+TipoLed KEYWORD2
