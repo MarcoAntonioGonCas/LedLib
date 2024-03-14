@@ -135,6 +135,7 @@ void LedLib::parar()
     this->_tiempoApagado = 0;
     this->_veces = 0;
     this->_infinito = false;
+    apagar();
 }
 void LedLib::loopInfinito(){
 
