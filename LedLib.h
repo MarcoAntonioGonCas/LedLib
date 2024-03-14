@@ -57,6 +57,9 @@ public:
     // Indica si un proceso aun no se completa.
     bool enEjecucion();
 
+    // Obtiene el estado del LED (LOW,HIGH)
+    bool obtenerEstadoLED();
+
     /// @brief Inicia el LED indicando el pin y el tipo de LED Anodo,Catado.
     /// @param pin El pin en donde se encuentra el LED.
     /// @param tipoLed Indica como polariza para encender el LED. Anodo aplica voltaje POSITIVO (HIGH) para encender, Catodo aplica un voltaje NEGATIVO (LOW) para encender.

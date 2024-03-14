@@ -30,7 +30,12 @@ void LedLib::begin(uint8_t pin, TipoLed tipoLed)
 bool LedLib::enEjecucion(){
     return _infinito || _tiempoIni != 0;
 }
+bool LedLib::obtenerEstadoLED(){
 
+    int estado = digitalRead(this->_pinLed);
+    
+    return estado == this->_onLed;
+}
 void LedLib::prender()
 {
     digitalWrite(this->_pinLed, this->_onLed);
