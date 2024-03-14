@@ -1,11 +1,35 @@
-LedLib   KEYWORD1
-begin   KEYWORD2
-enEjecucion    KEYWORD2
-parar    KEYWORD2
-apagarLED    KEYWORD2
-prenderLED    KEYWORD2
-prender    KEYWORD2
-prenderInfinito    KEYWORD2
-prenderBloqueante    KEYWORD2
-loop    KEYWORD2
-TipoLed KEYWORD2
+#######################################
+# Syntax Coloring Map For LedLib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ulong_t   KEYWORD1
+TipoLed   KEYWORD1
+LedLib  KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+enEjecucion KEYWORD2
+begin KEYWORD2
+parar KEYWORD2
+apagarLED KEYWORD2
+prenderLED KEYWORD2
+prender KEYWORD2
+prenderInfinito KEYWORD2
+prenderBloqueante KEYWORD2
+loop KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+Anodo	LITERAL1
+Catodo	LITERAL1
