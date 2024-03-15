@@ -38,5 +38,4 @@ void loop(){
     // Reiniciamos el contador del tiempo.
     tiempoInicial = millis();
   }
-
 }
