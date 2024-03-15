@@ -1,0 +1,23 @@
+{
+    "name": "LedLib",
+    "version": "0.1.0",
+    "description": "Controla LEDs de forma sencilla creando patrones de parpadeo. ",
+    "keywords": "LedLib, led, blink",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/MarcoAntonioGonCas/LedLib"
+    },
+    "authors":
+    [
+      {
+        "name": "Marco Antonio",
+        "email": "marcoantonigoncas@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://www.helloworld.org/",
+    "frameworks": "arduino",
+    "platforms": ["espressif8266", "espressif32"]
+}
